@@ -3,12 +3,25 @@
 
 <head>
     <script src="login.js"></script>
+    <link rel="stylesheet" href="loginstyle.css" />
     <title>
         UATSpace Page Login
     </title>
 </head>
 
 <body>
+    <div class="navbar">
+        <a href="index.html">Index</a>
+        <a href="boards.html">Boards</a>
+        <div class="dropdown">
+            <button class="dropbtn">Space Pages</button>
+                <i class="fa fa-caret-down"></i>
+            <div class="dropdown-content">
+                <a href="login.html">Login</a>
+                <a href="uatspace.html">UAT Space</a>
+            </div>
+        </div>
+    </div>
     <h1>
         Welcome to the UATSPace Page,<br>
         Please Log in...
@@ -28,7 +41,6 @@
         Badge number: <input type="number" id="badgeID" /> <br>
         <input type="submit" onclick="checkCreds();" />
     </form>
-
 </body>
 
 

@@ -200,6 +200,11 @@ function playBonk(){
     mysound.play();
 }
 
+function playGonk(){
+    mysound = new sound("Gonk Droid type beat [prod. draffish].mp3")
+    mysound.play();
+}
+
 function sound(src) {
     this.sound = document.createElement("audio");
     this.sound.src = src;

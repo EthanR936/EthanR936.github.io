@@ -10,6 +10,18 @@
 
     </head>
     <body>
+        <div class="navbar">
+            <a href="index.html">Index</a>
+            <a href="boards.html">Boards</a>
+            <div class="dropdown">
+                <button class="dropbtn">Space Pages</button>
+                    <i class="fa fa-caret-down"></i>
+                <div class="dropdown-content">
+                    <a href="login.html">Login</a>
+                    <a href="uatspace.html">UAT Space</a>
+                </div>
+            </div>
+        </div>
         <h1>
             Welcome to Ethan Rife's Website
         </h1>
@@ -17,19 +29,6 @@
         <br>
         <img src="gonk.png">
         <br>
-        <br>
-        <button class="lgbutton" onclick="goUATSpace();">Go to UATSpace</button>
-        <br>
-        <br>
-        <button class="lgbutton" onclick="goBoards();">Go to boards</button>
-        <br>
-        <br>
-
-        <nav>
-            <a href="index.html">Index</a> |
-            <a href="login.html">Login</a> |
-            <a href="uatspace.html">UAT Space Page</a> |
-            <a href="boards.html">Boards</a>
-        </nav>
+        <button class="lgbutton" onclick="playGonk();">Play Gonk Droid noise</button>
     </body>
 </html>
